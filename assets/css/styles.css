@@ -69,7 +69,7 @@ body {
 /* ######################### */
 
 .header__container{
-    padding: 20px 40px;
+    padding: 10px 40px;
    border-bottom: 1px solid #61677A;
    background-color: #272829;
 }
@@ -153,12 +153,23 @@ body {
     border-radius: 50px;
     border: gray solid 1px;
     background-color: #272829;
+    cursor: pointer;
+}
+
+.header__button:hover {
+    color: #272829;
+    background-color: gray ;
 }
 
 .section__container{
     display: flex;
     background-color: black;
-    padding: 0px 20px;
+    padding: 10px 20px;
+    
+}
+
+.Projects__heading {
+    font-weight: 300;
 }
 
 .main__section__aside__container{
@@ -168,15 +179,15 @@ body {
 
 .projects__section{
     width: 80%;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .project__container{
     width: 30%;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: 10px;
     display: flex;
-    gap: 30px;
+    gap: 15px;
     justify-content: space-between;
     background-color: #272829;
     width: 400px;
@@ -184,9 +195,9 @@ body {
 }
 
 .project__decoration{
-    background-color: violet;
-    width: 90px;
-    border-radius: 20px 0px 0px 20px;
+    background-color: darkmagenta;
+    width: 30px;
+    border-radius: 10px 0px 0px 10px;
     /* margin-left: 5px; */
 
 }
@@ -196,12 +207,12 @@ body {
     flex-direction: column;
     gap: 10px;
     background-color: transparent;
-    /* padding: 20px; */
-    padding: 10px 0px;
+    padding: 30px 0px;
+    
 }
 
 .project__heading {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300px;
     background-color: transparent;
 }
@@ -210,12 +221,13 @@ body {
     font-size: 14px;
     opacity: 0.7;
     background-color: transparent;
+    line-height: 20px;
 }
 
 .icons__container{
     display: flex;
     justify-content: end;
-    gap: 10px;
+    gap: 20px;
     background-color: transparent;
     padding: 5px 20px;
 }
